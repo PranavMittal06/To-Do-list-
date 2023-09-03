@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #7475b4;
+}
+.box{
+    position: relative;
+    width: 450px;
+    height: 550px;
+    padding: 30px 50px;
+    border-radius: 30px;
+    background: #7475b4;
+    box-shadow: 25px 25px 75px rgba(0,0,0, 0.25),
+    10px 10px 70px rgba(0,0,0, 0.25),
+    inset 5px 5px 10px rgba(0,0,0, 0.5),
+    inset 5px 5px 20px rgba(255,255,222, 0.2),
+    inset -5px -5px 10px rgba(0,0,0, 0.75)
+    ;
+}
+h1{
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.75rem;
+    padding-bottom: 10px;
+}
+#inputbx{
+    position: relative;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 1em;
+    margin-right: 10px;
+
+}
+button{
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    border-radius: 30px;
+    font-size: 1em;
+}
+.box li{
+    position: relative;
+    width:95%;
+    display: flex;
+    align-items:center ;
+    font-weight: 600;
+    font-size: 1.1em;
+    background-color: rgba(97, 18, 143, 0.671);
+    margin: 15px 5px;
+    padding: 10px;
+    min-height: 45px;
+    cursor: pointer;
+    border-radius: 22.5px;
+    color: azure;
+    justify-content:space-between;
+}
+#list{
+    position: relative;
+    margin-top: 10px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 15px rgba(0, 0,0, 0.5);
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: white;
+}
